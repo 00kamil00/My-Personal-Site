@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body { 
+    background-color: #131313;
+}
+
+#about { 
+    text-align: center;
+}
+
+#about > img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #f81717;
+    border-radius: 500px;
+    height: 220px;
+    width: 220px;
+}
+
+nav { 
+    background-color: #edff23;
+    text-align: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+nav > h1 { 
+    margin-bottom: 5px;
+}
+
+.nav-item { 
+    display: inline-block;
+    border: 5px ridge #f81717;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h2 { 
+    background-color: rgb(100, 100, 100);
+    margin-bottom: 20px;
+}
+
+section > h2 { 
+    border: 2px solid black;
+    position: sticky;
+    top: 90px;
+}
+
+main { 
+    color: white;
+}
+
+#notification-div { 
+    background-color: #f81717;
+    color: #313131;
+    padding: 5px;
+    border: 2px solid darkslategray;
+    border-radius: 5px;
+    width: 10%;
+    position: fixed;
+    top: 130px;
+    left: 4px;
+    z-index: 1;
+}
+
+#contact > h2 { 
+    border: 2px solid black;
+}
+
+section > p { 
+    margin-bottom: 10px;
+}
+
+#img-1 { 
+    margin-bottom: 50px;
+}
+
+#projects { 
+    text-align: center;
+}
+
+#contact { 
+    text-align: center;
+}
+
+footer { 
+    background-color: #edff23;
+}
+
+footer > p { 
+    font-size: 18px;
+}
+
+footer > h2 { 
+    color: white;
+}
+
+form { 
+    margin-bottom: 15px;
+}
+
+#github-logo { 
+    height: 45px;
+    width: 45px;
+    margin-right: 8px;
+}
+
+#codedex-logo { 
+    height: 45px;
+    width: 45px;
+}
+
