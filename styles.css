@@ -85,9 +85,18 @@ section > p {
     margin-bottom: 10px;
 }
 
+#img-1 { 
+    margin-bottom: 10px;
+}
+
+#img-2 {
+    margin-bottom: 10px;
+}
+
 #img-3 { 
     width: 350px;
-    height: 400px;
+    height: 450px;
+    margin-bottom: 10px;
 }
 
 #projects { 
