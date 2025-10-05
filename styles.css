@@ -41,6 +41,12 @@ nav > h1 {
     border: 5px ridge #f81717;
     border-radius: 5px;
     padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item:hover { 
+    color: rgb(115, 115, 115);
 }
 
 h2 { 
@@ -79,8 +85,9 @@ section > p {
     margin-bottom: 10px;
 }
 
-#img-1 { 
-    margin-bottom: 50px;
+#img-3 { 
+    width: 350px;
+    height: 400px;
 }
 
 #projects { 
@@ -117,4 +124,3 @@ form {
     height: 45px;
     width: 45px;
 }
-
